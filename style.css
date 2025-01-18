@@ -23,6 +23,32 @@
     padding-left: 25px;
     padding-top: 25px;
     grid-auto-rows: 45px;
+    align-items: center;
+}
+
+.sidebar-link,
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-link {
+    padding-left: 10px;
+}
+
+.sidebar-logo {
+    gap: 15px;
+}
+
+.sidebar-link img {
+    height: 25px;
+    width: 25px;
+}
+
+.sidebar-logo img {
+    height: 40px;
+    width: 40px;
 }
 
 .sidebar h1 {
