@@ -2,4 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: inherit;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 175px 1fr;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: rgb(0, 162, 255);
+    grid-row: 1 / -1;
+    color: white;
+    display: grid;
+    justify-items: left;
+    padding-left: 25px;
+    padding-top: 25px;
+    grid-auto-rows: 45px;
+}
+
+.sidebar h1 {
+    font-size: 28px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    background-color: white;
+    grid-column: 2 / -1;
+}
+
+.dashboard {
+    background-color: lightgray;
 }
