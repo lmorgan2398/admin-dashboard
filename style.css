@@ -13,6 +13,7 @@
     grid-template-rows: 180px 1fr;
     height: 100vh;
     min-height: content;
+    padding-bottom: 50px;
 }
 
 .sidebar {
@@ -187,9 +188,9 @@
     background-color: rgb(215, 221, 224);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 75px 1fr;
+    grid-template-rows: 75px 1fr 1fr;
     padding-left: 30px;
-    gap: 40px;
+    gap: 30px;
 }
 
 .your-projects,
@@ -202,8 +203,9 @@
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-row: 2 / 3;
     grid-auto-rows: 250px;
-    gap: 40px;
+    gap: 30px;
     justify-content: start;
 }
 
