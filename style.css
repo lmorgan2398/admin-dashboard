@@ -191,6 +191,7 @@
     padding-left: 30px;
     gap: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .your-projects,
@@ -282,4 +283,43 @@
 .announcement p {
     font-size: 14px;
     color: gray;
+}
+
+.trending-profiles-container {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 30px 15px 30px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.trending-title {
+    padding-bottom: 30px;
+}
+
+.trending-profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 3px;
+}
+
+.trending-profile-info > p:last-of-type {
+    color: gray;
+}
+
+.trending-profiles-container > * {
+    margin-bottom: 20px;
+}
+
+.trending-profiles-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+    align-self: center;
 }
